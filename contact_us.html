@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <title>contact us</title>
+    <link rel="stylesheet" href="css/help3.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Poppins:wght@700&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <section class="sub-header">
+       <nav>
+         <a href="index.html"><img class="rudra" src="images/logo.jpeg" width="20" height="80"></a>
+         <div class="nav-links" id="navLinks">
+           <i class="fa fa-times" onclick="hideMenu()"></i>
+           <ul>
+             <li><a href="index.html">HOME</a></li>
+             <li><a href="about_us.html">ABOUT</a></li>
+             <li><a href="#">FACILITIES</a></li>
+             <li><a href="#">FACULTY LISIT</a></li>
+             <li><a href="blog.html">BLOG</a></li>
+             <li><a href="gallery.html">GALLERY</a></li>
+             <li><a href="contact_us.html">CONTACT US</a></li>
+             <li><a href="index1.html">Testimonial</a></li>
+           </ul>
+         </div>
+         <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+       <h1>Contact Us</h1>
+    </section>
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d28014.931108432393!2d77.41520695!3d28.6337663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1655106391012!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+<section class="contact-us">
+    <div class="row">
+      <div class="contact-col">
+        <div >
+          <i class="fa fa-home"></i>
+          <span>
+            <h5>cinnma hall road,belsand more</h5>
+            <p>Runnisadpur,Sitamarhi</p>
+          </span>
+        </div>
+        <div >
+          <i class="fa fa-phone"></i>
+          <span>
+            <h5>9905402619</h5>
+            <p>EXCEPT SUNDAY,9 A.M TO 5 P.M</p>
+          </span>
+        </div>
+        <div >
+          <i class="fa fa-envelope-o"></i>
+          <span>
+            <h5>rudrasanyal843328@gmail.com</h5>
+            <p>Email us for query</p>
+          </span>
+        </div>
+      </div>
+      <div class="contact-col">
+        <form action="form-handler.php" method="post">
+          <input type="text" name="name" placeholder="Enter your name">
+          <input type="email" name="email" placeholder="Enter  email Adderes">
+          <input type="text" name="subject" placeholder="Enter your subject">
+          <textarea rows="8" cols="80" name="message" placeholder="Message" required></textarea>
+          <button type="submit" class="hero-btn red-btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+</section>
+<section class="footer1">
+  <footer>
+    <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+    </div>
+    <ul class="social_icon">
+      <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+      <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+      <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+      <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+    </ul>
+    <ul class="menu">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about_us.html">ABOUT</a></li>
+      <li><a href="#">FACILITIES</a></li>
+      <li><a href="#">FACULTY LISIT</a></li>
+      <li><a href="blog.html">BLOG</a></li>
+      <li><a href="gallery.html">GALLERY</a></li>
+      <li><a href="contact.html">CONTACT US</a></li>
+      <li><a href="index1.html">Testimonial</a></li>
+    </ul>
+    <p>Join V.N.I.T Nagpur to make investment worth.All Rights Reserved</p>
+  </footer>
+</section>
+    <script>
+      var navLinks =document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.right="0";
+      }
+      function hideMenu(){
+        navLinks.style.right="-200px";
+      }
+    </script>
+  </body>
+</html>

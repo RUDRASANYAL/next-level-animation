@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <title>Vnit NAGPUR</title>
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Poppins:wght@700&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <section class="sub-header">
+       <nav>
+         <a href="index.html"><img class="rudra" src="images/logo.jpeg" width="20" height="80"></a>
+         <div class="nav-links" id="navLinks">
+           <i class="fa fa-times" onclick="hideMenu()"></i>
+           <ul>
+             <li><a href="index.html">HOME</a></li>
+             <li><a href="about_us.html">ABOUT</a></li>
+             <li><a href="#">FACILITIES</a></li>
+             <li><a href="#">FACULTY LISIT</a></li>
+             <li><a href="blog.html">BLOG</a></li>
+             <li><a href="gallery.html">GALLERY</a></li>
+             <li><a href="contact_us.html">CONTACT US</a></li>
+             <li><a href="testimonial.html">Testimonial</a></li>
+           </ul>
+         </div>
+         <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+       <h1>About Us</h1>
+    </section>
+
+<section class="about-us">
+  <div class="row">
+    <div class="about-col">
+      <h1>we are 3rd top high school</h1>
+      <p>The school was founded in 1992 at Runnisaidpur in Sitamarhi by the efforts of Mahatma N D Grover, who nurtured the sapling of the school to a full fledged and well spread plant of education .It is the first CBSE affiliated DAV public school of the district teaching students mostly coming from remote villages.</p>
+       <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+    </div>
+      <div class="about-col">
+        <img src="about_us.jpeg" alt="">
+
+      </div>
+  </div>
+
+</section>
+<section class="footer1">
+  <footer>
+    <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+    </div>
+    <ul class="social_icon">
+      <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+      <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+      <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+      <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+    </ul>
+    <ul class="menu">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about_us.html">ABOUT</a></li>
+      <li><a href="#">FACILITIES</a></li>
+      <li><a href="#">FACULTY LISIT</a></li>
+      <li><a href="blog.html">BLOG</a></li>
+      <li><a href="gallery.html">GALLERY</a></li>
+      <li><a href="contact_us.html">CONTACT US</a></li>
+      <li><a href="testimonial.html">Testimonial</a></li>
+    </ul>
+    <p>Join D.A.V to make investment worth.All Rights Reserved</p>
+  </footer>
+</section>
+
+    <script>
+      var navLinks =document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.right="0";
+      }
+      function hideMenu(){
+        navLinks.style.right="-200px";
+      }
+    </script>
+  </body>
+</html>
